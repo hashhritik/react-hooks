@@ -1,0 +1,60 @@
+<!-- 1. useState
+Task 1: Create a counter app. Add "Increase", "Decrease", and "Reset" buttons. ------------------
+Task 2: Build a toggle app where clicking a button toggles between "ON" and "OFF".----------------
+Task 3: Create a form with input fields for name and email. Update the state as the user types.
+Task 4: Create a color picker where the background color of a box changes based on selected input.
+
+2. useEffect
+Task 1: Fetch data from a public API (e.g., JSONPlaceholder) and display it when the component mounts.
+Task 2: Display the current time and update it every second.
+Task 3: Display a message in the console whenever a specific state value changes.
+Task 4: Implement a cleanup function to remove an event listener when the component unmounts.
+
+3. useContext
+Task 1: Create a theme context (light/dark) and use it to toggle the app's background color.
+Task 2: Build a user authentication context with a "Login" button and a greeting message for the user.
+Task 3: Share a counter state across multiple sibling components using context.
+
+4. useReducer
+Task 1: Create a counter app with the same "Increase", "Decrease", and "Reset" functionality, but implement it using useReducer.
+Task 2: Manage the state of a to-do list with "Add", "Remove", and "Toggle Completion" actions.
+Task 3: Build a multi-step form and manage its state (step navigation) using useReducer.
+
+5. useCallback
+Task 1: Optimize a button click handler in a counter app so that the function is memoized.
+Task 2: Pass a memoized callback to a child component and prevent unnecessary re-renders.
+Task 3: Implement a search bar that filters a list, and memoize the filtering function.
+
+6. useMemo
+Task 1: Display the sum of a large array of numbers and memoize the calculation to prevent unnecessary recalculations.
+Task 2: Build a list filtering feature, memoizing the filtered results for better performance.
+Task 3: Create a component that calculates the factorial of a number and memoizes the result.
+
+7. useRef
+Task 1: Build a focus handler that moves focus to an input field when a button is clicked.
+Task 2: Create a stop-watch app using useRef to store the interval ID.
+Task 3: Measure the width of a DOM element and display it on the screen using useRef.
+
+8. useImperativeHandle
+Task 1: Create a custom input component with a "clear" method and expose it using useImperativeHandle.
+Task 2: Build a component with an animated div and control the animation externally using refs.
+Task 3: Create a modal component with an "open" and "close" method, exposing them via useImperativeHandle.
+
+9. useLayoutEffect
+Task 1: Create a component where a DOM element's position is logged as soon as it's rendered.
+Task 2: Build a responsive layout that adjusts an element's height and width after rendering.
+Task 3: Compare useEffect vs. useLayoutEffect by logging the execution order of each hook.
+
+10. useDebugValue
+Task 1: Create a custom hook for fetching data and add a debug value to indicate the current fetching status.
+Task 2: Build a custom hook for a theme switcher and display the current theme in React DevTools using useDebugValue.
+
+11. useId (React 18+)
+Task 1: Create a form with multiple inputs and use useId to generate unique id attributes for each input field.
+Task 2: Build an accessible accordion component where each header and panel pair has a unique ID.
+Task 3: Use useId to uniquely label a list of dynamically rendered items.
+
+Additional Custom Hook Practice
+Create a custom hook for form validation (e.g., checking if fields are required or if email is valid).
+Build a custom hook for fetching and caching API data.
+Implement a custom hook for managing localStorage or sessionStorage. -->
